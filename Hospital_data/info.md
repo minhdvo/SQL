@@ -1,0 +1,16 @@
+### This case has 15 tables:
+- Affiliated_with
+- Department
+- Trained_in
+- Physician
+- Procedure
+- Patient
+- Prescribes
+- Room
+- Appointment
+- Medication
+- Block
+- Undergoes
+- Stay
+- On_Call
+- Nurse
