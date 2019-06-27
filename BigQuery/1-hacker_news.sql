@@ -52,3 +52,11 @@ This tells us:
 - the data in this field is strings,
 - NULL values are allowed, and
 - it contains the usernames corresponding to each item's author.
+
+Preview the first five lines of the "full" table
+- list_rows method: check first lines of a table
+- to_dataframe: convert into pandas DataFrame */
+client.list_rows(table, max_results=5).to_dataframe()
+
+-- Preview the first five entries in the "by" column of the "full" table
+client.list_rows(table, selected_fields=table.schema[:1], max_results=5).to_dataframe()
